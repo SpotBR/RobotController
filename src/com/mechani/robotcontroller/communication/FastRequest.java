@@ -1,0 +1,11 @@
+package com.mechani.robotcontroller.communication;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Target;
+
+@Target(ElementType.TYPE)
+public @interface FastRequest {
+
+	String send();
+	
+}
